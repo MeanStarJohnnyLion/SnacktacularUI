@@ -16,6 +16,7 @@
 		9FE5D85E29198F9900D7B9BD /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE5D85D29198F9900D7B9BD /* FirebaseFirestoreSwift */; };
 		9FE5D86029198F9900D7B9BD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE5D85F29198F9900D7B9BD /* FirebaseStorage */; };
 		9FE5D862291991C900D7B9BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FE5D861291991C900D7B9BD /* GoogleService-Info.plist */; };
+		9FE5D864291BFAAB00D7B9BD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5D863291BFAAB00D7B9BD /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9FE5D8502919780400D7B9BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FE5D8572919799A00D7B9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9FE5D861291991C900D7B9BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9FE5D863291BFAAB00D7B9BD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				9FE5D8572919799A00D7B9BD /* Info.plist */,
 				9FE5D8492919780200D7B9BD /* SnacktacularUIApp.swift */,
 				9FE5D84B2919780200D7B9BD /* LoginView.swift */,
+				9FE5D863291BFAAB00D7B9BD /* ListView.swift */,
 				9FE5D84D2919780400D7B9BD /* Assets.xcassets */,
 				9FE5D861291991C900D7B9BD /* GoogleService-Info.plist */,
 				9FE5D84F2919780400D7B9BD /* Preview Content */,
@@ -162,6 +165,7 @@
 			files = (
 				9FE5D84C2919780200D7B9BD /* LoginView.swift in Sources */,
 				9FE5D84A2919780200D7B9BD /* SnacktacularUIApp.swift in Sources */,
+				9FE5D864291BFAAB00D7B9BD /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
