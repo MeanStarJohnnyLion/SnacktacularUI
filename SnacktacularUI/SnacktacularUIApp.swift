@@ -21,10 +21,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct SnacktacularUIApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @StateObject var spotVM = SpotViewModel()
+    @StateObject var locationManager = LocationManager()
     var body: some Scene {
         WindowGroup {
             LoginView()
                 .environmentObject(spotVM)
+                .environmentObject(locationManager)
         }
     }
 }
