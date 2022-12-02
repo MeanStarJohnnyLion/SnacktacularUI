@@ -11,6 +11,7 @@ import CoreLocation
 
 struct Spot: Identifiable, Codable, Equatable {
     @DocumentID var id: String?
+    
     var name = ""
     var address = ""
     var latitude = 0.0

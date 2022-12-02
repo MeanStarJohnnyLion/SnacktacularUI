@@ -22,7 +22,7 @@ class SpotViewModel: ObservableObject {
                 print("😎 Data updated successfully!")
                 return true
             } catch {
-                print("😡 ERROR: Could not update datat in 'spots' \(error.localizedDescription)")
+                print("😡 ERROR: Could not update data in 'spots' \(error.localizedDescription)")
                 return false
             }
         } else {
