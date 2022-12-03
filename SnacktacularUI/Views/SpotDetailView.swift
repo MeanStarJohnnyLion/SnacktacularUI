@@ -25,6 +25,8 @@ struct SpotDetailView: View {
     @State var spot: Spot
     @State private var showPlaceLookupSheet = false
     @State private var showReviewViewSheet = false
+    @State private var showSaveAlert = false
+    @State private var showingAsSheet = false
     @State private var  mapRegion = MKCoordinateRegion()
     @State private var annotations: [Annotation] = []
     @Environment(\.dismiss) private var dismiss
@@ -63,7 +65,7 @@ struct SpotDetailView: View {
                         } label: {
                             Text(review.title)// TODO: Buld a custom cell showing stars title and body
                         }
-
+                        
                     }
                 } header: {
                     HStack {
@@ -79,7 +81,12 @@ struct SpotDetailView: View {
                         
                         
                         Button("Rate It") {
-                            showReviewViewSheet.toggle()
+                            
+                            if spot.id == nil {
+                                showSaveAlert.toggle()
+                            } else {
+                                showReviewViewSheet.toggle()
+                            }
                         }
                         .buttonStyle(.borderedProminent)
                         .bold()
@@ -94,10 +101,12 @@ struct SpotDetailView: View {
             Spacer()
         }
         .onAppear {
-            if !previewRunning {// This is to prevent PreviewProvider error
+            if !previewRunning && spot.id != nil {// This is to prevent PreviewProvider error
                 $reviews.path = "spots/\(spot.id ?? "")/reviews"
                 print("reviews.path = \($reviews.path)")
                 
+            } else {
+                showingAsSheet = true
             }
             if spot.id != nil { // If we have a spot, center map on the spot
                 mapRegion = MKCoordinateRegion(center: spot.coordinate, latitudinalMeters: regionSize, longitudinalMeters: regionSize)
@@ -113,34 +122,42 @@ struct SpotDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(spot.id == nil)
         .toolbar {
-            if spot.id == nil {// New spot, so show Cancel/Save Buttons
-                ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") {
-                        dismiss()
-                    }
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Save") {
-                        Task {
-                            let success = await spotVM.saveSpot(spot: spot)
-                            if success  {
-                                dismiss()
-                            } else {
-                                print("😡 Dang! error saving spot!")
-                            }
+            if showingAsSheet { // New spot, so show Cancel / Save buttons
+                if spot.id == nil && showingAsSheet {// New spot, so show Cancel/Save Buttons
+                    ToolbarItem(placement: .cancellationAction) {
+                        Button("Cancel") {
+                            dismiss()
                         }
-                        dismiss()
                     }
-                }
-                ToolbarItemGroup(placement: .bottomBar) {
-                    Spacer()
-                    Button {
-                        showPlaceLookupSheet.toggle()
-                    } label: {
-                        Image(systemName: "magnifyingglass")
-                        Text("Lookup Place")
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button("Save") {
+                            Task {
+                                let success = await spotVM.saveSpot(spot: spot)
+                                if success  {
+                                    dismiss()
+                                } else {
+                                    print("😡 Dang! error saving spot!")
+                                }
+                            }
+                            dismiss()
+                        }
                     }
-                    
+                    ToolbarItemGroup(placement: .bottomBar) {
+                        Spacer()
+                        Button {
+                            showPlaceLookupSheet.toggle()
+                        } label: {
+                            Image(systemName: "magnifyingglass")
+                            Text("Lookup Place")
+                        }
+                        
+                    }
+                } else if showingAsSheet && spot.id != nil {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button("Done") {
+                            dismiss()
+                        }
+                    }
                 }
             }
         }
@@ -152,6 +169,25 @@ struct SpotDetailView: View {
                 ReviewView(spot: spot, review: Review())
             }
         }
+        .alert("Cannot Rate Place Unless It is Saved", isPresented: $showSaveAlert) {
+            Button("Cancel", role: .cancel) {}
+            Button("Save", role:.none) {
+                Task {
+                    let success = await spotVM.saveSpot(spot: spot)
+                    spot = spotVM.spot
+                    if success {
+                        // If we didn't update the path after saving spot, we wouldn't be able to show new reviews added
+                        $reviews.path = "spots/\(spot.id ?? "")/reviews"
+                        showReviewViewSheet.toggle()
+                    } else {
+                        print("😡 Dang! Error saving spot")
+                    }
+                }
+            }
+        } message: {
+            Text("Would you like to save this alert first so that you can review?")
+        }
+        
     }
 }
 
