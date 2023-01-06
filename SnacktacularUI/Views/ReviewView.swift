@@ -22,7 +22,7 @@ struct ReviewView: View {
                     .font(.title)
                     .bold()
                     .multilineTextAlignment(.leading)
-                .lineLimit(1)
+                    .lineLimit(1)
                 
                 Text(spot.address)
                     .padding(.bottom)
@@ -94,7 +94,7 @@ struct ReviewView: View {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button("Save") {
                         Task {
-                          let success = await reviewVM.saveReview(spot: spot, review: review)
+                            let success = await reviewVM.saveReview(spot: spot, review: review)
                             if success {
                                 dismiss()
                             } else {
@@ -104,7 +104,29 @@ struct ReviewView: View {
                     }
                 }
             }
-     
+            
+            if review.id != nil {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    
+                    Spacer()
+                    
+                    Button {
+                        Task {
+                            let success = await reviewVM.deleteReview(spot: spot, review: review)
+                            if success {
+                                dismiss()
+                            }
+                        }
+                       
+                    } label: {
+                        Image(systemName: "trash")
+                    
+                    
+                }
+            }
+            }
+                
+            
         }
     }
 }
