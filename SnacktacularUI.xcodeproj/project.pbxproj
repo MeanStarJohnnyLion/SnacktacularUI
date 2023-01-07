@@ -16,6 +16,48 @@
 		9F52F43D2921175C00A1C89E /* SpotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F52F43C2921175C00A1C89E /* SpotDetailView.swift */; };
 		9F52F43F29211BA300A1C89E /* SpotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F52F43E29211BA300A1C89E /* SpotViewModel.swift */; };
 		9FB9D813296988E600BF09BD /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9D812296988E600BF09BD /* Photo.swift */; };
+		9FB9D8152969958900BF09BD /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9D8142969958900BF09BD /* PhotoView.swift */; };
+		9FB9D8402969983400BF09BD /* daves-hot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8172969983400BF09BD /* daves-hot.png */; };
+		9FB9D8412969983400BF09BD /* scicillian-pie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8182969983400BF09BD /* scicillian-pie.jpeg */; };
+		9FB9D8422969983400BF09BD /* Island Creek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8192969983400BF09BD /* Island Creek.jpg */; };
+		9FB9D8432969983400BF09BD /* unhappypizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D81A2969983400BF09BD /* unhappypizza.jpg */; };
+		9FB9D8442969983400BF09BD /* Oysters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D81B2969983400BF09BD /* Oysters.jpg */; };
+		9FB9D8452969983400BF09BD /* ShakeDog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D81C2969983400BF09BD /* ShakeDog.jpg */; };
+		9FB9D8462969983400BF09BD /* Shack Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D81D2969983400BF09BD /* Shack Burger.jpg */; };
+		9FB9D8472969983400BF09BD /* Sicillian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D81E2969983400BF09BD /* Sicillian.jpg */; };
+		9FB9D8482969983400BF09BD /* horchata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D81F2969983400BF09BD /* horchata.jpg */; };
+		9FB9D8492969983400BF09BD /* pinos2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8202969983400BF09BD /* pinos2.jpeg */; };
+		9FB9D84A2969983400BF09BD /* ep burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8212969983400BF09BD /* ep burrito.jpg */; };
+		9FB9D84B2969983400BF09BD /* El Pelon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8222969983400BF09BD /* El Pelon.jpg */; };
+		9FB9D84C2969983400BF09BD /* my-place-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8232969983400BF09BD /* my-place-3.jpeg */; };
+		9FB9D84D2969983400BF09BD /* Lobster Roll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8242969983400BF09BD /* Lobster Roll.jpg */; };
+		9FB9D84E2969983400BF09BD /* Cheese Fries.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8252969983400BF09BD /* Cheese Fries.jpeg */; };
+		9FB9D84F2969983400BF09BD /* tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8262969983400BF09BD /* tacos.jpg */; };
+		9FB9D8502969983400BF09BD /* square.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8272969983400BF09BD /* square.jpeg */; };
+		9FB9D8512969983400BF09BD /* Fish Tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8282969983400BF09BD /* Fish Tacos.jpg */; };
+		9FB9D8522969983400BF09BD /* burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8292969983400BF09BD /* burrito.jpg */; };
+		9FB9D8532969983400BF09BD /* surf n turf shake shack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D82A2969983400BF09BD /* surf n turf shake shack.jpeg */; };
+		9FB9D8542969983400BF09BD /* Shake Shack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D82B2969983400BF09BD /* Shake Shack.jpg */; };
+		9FB9D8552969983400BF09BD /* my-place-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D82C2969983400BF09BD /* my-place-2.jpeg */; };
+		9FB9D8562969983400BF09BD /* footballpizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D82D2969983400BF09BD /* footballpizza.jpg */; };
+		9FB9D8572969983400BF09BD /* pizza2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D82E2969983400BF09BD /* pizza2.jpg */; };
+		9FB9D8582969983400BF09BD /* Concretes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D82F2969983400BF09BD /* Concretes.jpg */; };
+		9FB9D8592969983400BF09BD /* Chicken Pita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8302969983400BF09BD /* Chicken Pita.jpg */; };
+		9FB9D85A2969983400BF09BD /* sea bass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8312969983400BF09BD /* sea bass.jpg */; };
+		9FB9D85B2969983400BF09BD /* daves-hot-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8322969983400BF09BD /* daves-hot-3.jpeg */; };
+		9FB9D85C2969983400BF09BD /* Shack Tray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8332969983400BF09BD /* Shack Tray.jpg */; };
+		9FB9D85D2969983400BF09BD /* pinos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8342969983400BF09BD /* pinos.jpeg */; };
+		9FB9D85E2969983400BF09BD /* Shake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8352969983400BF09BD /* Shake.jpg */; };
+		9FB9D85F2969983400BF09BD /* shaq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8362969983400BF09BD /* shaq.jpg */; };
+		9FB9D8602969983400BF09BD /* seafood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8372969983400BF09BD /* seafood.jpg */; };
+		9FB9D8612969983400BF09BD /* daves-hot-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8382969983400BF09BD /* daves-hot-2.jpeg */; };
+		9FB9D8622969983400BF09BD /* my-place-by-the-sea.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D8392969983400BF09BD /* my-place-by-the-sea.jpeg */; };
+		9FB9D8632969983400BF09BD /* qahogs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D83A2969983400BF09BD /* qahogs.jpg */; };
+		9FB9D8642969983400BF09BD /* ShakeShack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D83B2969983400BF09BD /* ShakeShack.jpg */; };
+		9FB9D8652969983400BF09BD /* Oyster-plate.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D83C2969983400BF09BD /* Oyster-plate.jpeg */; };
+		9FB9D8662969983400BF09BD /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D83D2969983400BF09BD /* pizza.jpg */; };
+		9FB9D8672969983400BF09BD /* Sicillian with the noid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D83E2969983400BF09BD /* Sicillian with the noid.jpg */; };
+		9FB9D8682969983400BF09BD /* Oyster Slider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9D83F2969983400BF09BD /* Oyster Slider.jpg */; };
 		9FC9859A292BC0F000F58E83 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC98596292BC0F000F58E83 /* LocationManager.swift */; };
 		9FC9859B292BC0F000F58E83 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC98597292BC0F000F58E83 /* PlaceViewModel.swift */; };
 		9FC9859C292BC0F000F58E83 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC98598292BC0F000F58E83 /* Place.swift */; };
@@ -42,6 +84,48 @@
 		9F52F43C2921175C00A1C89E /* SpotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailView.swift; sourceTree = "<group>"; };
 		9F52F43E29211BA300A1C89E /* SpotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotViewModel.swift; sourceTree = "<group>"; };
 		9FB9D812296988E600BF09BD /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		9FB9D8142969958900BF09BD /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		9FB9D8172969983400BF09BD /* daves-hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daves-hot.png"; sourceTree = "<group>"; };
+		9FB9D8182969983400BF09BD /* scicillian-pie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scicillian-pie.jpeg"; sourceTree = "<group>"; };
+		9FB9D8192969983400BF09BD /* Island Creek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Island Creek.jpg"; sourceTree = "<group>"; };
+		9FB9D81A2969983400BF09BD /* unhappypizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unhappypizza.jpg; sourceTree = "<group>"; };
+		9FB9D81B2969983400BF09BD /* Oysters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oysters.jpg; sourceTree = "<group>"; };
+		9FB9D81C2969983400BF09BD /* ShakeDog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShakeDog.jpg; sourceTree = "<group>"; };
+		9FB9D81D2969983400BF09BD /* Shack Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shack Burger.jpg"; sourceTree = "<group>"; };
+		9FB9D81E2969983400BF09BD /* Sicillian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sicillian.jpg; sourceTree = "<group>"; };
+		9FB9D81F2969983400BF09BD /* horchata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horchata.jpg; sourceTree = "<group>"; };
+		9FB9D8202969983400BF09BD /* pinos2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinos2.jpeg; sourceTree = "<group>"; };
+		9FB9D8212969983400BF09BD /* ep burrito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ep burrito.jpg"; sourceTree = "<group>"; };
+		9FB9D8222969983400BF09BD /* El Pelon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El Pelon.jpg"; sourceTree = "<group>"; };
+		9FB9D8232969983400BF09BD /* my-place-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "my-place-3.jpeg"; sourceTree = "<group>"; };
+		9FB9D8242969983400BF09BD /* Lobster Roll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lobster Roll.jpg"; sourceTree = "<group>"; };
+		9FB9D8252969983400BF09BD /* Cheese Fries.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cheese Fries.jpeg"; sourceTree = "<group>"; };
+		9FB9D8262969983400BF09BD /* tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tacos.jpg; sourceTree = "<group>"; };
+		9FB9D8272969983400BF09BD /* square.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square.jpeg; sourceTree = "<group>"; };
+		9FB9D8282969983400BF09BD /* Fish Tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fish Tacos.jpg"; sourceTree = "<group>"; };
+		9FB9D8292969983400BF09BD /* burrito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrito.jpg; sourceTree = "<group>"; };
+		9FB9D82A2969983400BF09BD /* surf n turf shake shack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "surf n turf shake shack.jpeg"; sourceTree = "<group>"; };
+		9FB9D82B2969983400BF09BD /* Shake Shack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shake Shack.jpg"; sourceTree = "<group>"; };
+		9FB9D82C2969983400BF09BD /* my-place-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "my-place-2.jpeg"; sourceTree = "<group>"; };
+		9FB9D82D2969983400BF09BD /* footballpizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = footballpizza.jpg; sourceTree = "<group>"; };
+		9FB9D82E2969983400BF09BD /* pizza2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza2.jpg; sourceTree = "<group>"; };
+		9FB9D82F2969983400BF09BD /* Concretes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concretes.jpg; sourceTree = "<group>"; };
+		9FB9D8302969983400BF09BD /* Chicken Pita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chicken Pita.jpg"; sourceTree = "<group>"; };
+		9FB9D8312969983400BF09BD /* sea bass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sea bass.jpg"; sourceTree = "<group>"; };
+		9FB9D8322969983400BF09BD /* daves-hot-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "daves-hot-3.jpeg"; sourceTree = "<group>"; };
+		9FB9D8332969983400BF09BD /* Shack Tray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shack Tray.jpg"; sourceTree = "<group>"; };
+		9FB9D8342969983400BF09BD /* pinos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinos.jpeg; sourceTree = "<group>"; };
+		9FB9D8352969983400BF09BD /* Shake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shake.jpg; sourceTree = "<group>"; };
+		9FB9D8362969983400BF09BD /* shaq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shaq.jpg; sourceTree = "<group>"; };
+		9FB9D8372969983400BF09BD /* seafood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seafood.jpg; sourceTree = "<group>"; };
+		9FB9D8382969983400BF09BD /* daves-hot-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "daves-hot-2.jpeg"; sourceTree = "<group>"; };
+		9FB9D8392969983400BF09BD /* my-place-by-the-sea.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "my-place-by-the-sea.jpeg"; sourceTree = "<group>"; };
+		9FB9D83A2969983400BF09BD /* qahogs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qahogs.jpg; sourceTree = "<group>"; };
+		9FB9D83B2969983400BF09BD /* ShakeShack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShakeShack.jpg; sourceTree = "<group>"; };
+		9FB9D83C2969983400BF09BD /* Oyster-plate.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oyster-plate.jpeg"; sourceTree = "<group>"; };
+		9FB9D83D2969983400BF09BD /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		9FB9D83E2969983400BF09BD /* Sicillian with the noid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sicillian with the noid.jpg"; sourceTree = "<group>"; };
+		9FB9D83F2969983400BF09BD /* Oyster Slider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oyster Slider.jpg"; sourceTree = "<group>"; };
 		9FC98596292BC0F000F58E83 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		9FC98597292BC0F000F58E83 /* PlaceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
 		9FC98598292BC0F000F58E83 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -102,9 +186,59 @@
 				9F2C3809293B289300B88FC8 /* SpotReviewRowView.swift */,
 				9FC98599292BC0F000F58E83 /* PlaceLookupView.swift */,
 				9F2796962935581F00E78E36 /* ReviewView.swift */,
+				9FB9D8142969958900BF09BD /* PhotoView.swift */,
 				9F2796982936685900E78E36 /* StarsSelectionView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9FB9D8162969983400BF09BD /* Food Images */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9D8172969983400BF09BD /* daves-hot.png */,
+				9FB9D8182969983400BF09BD /* scicillian-pie.jpeg */,
+				9FB9D8192969983400BF09BD /* Island Creek.jpg */,
+				9FB9D81A2969983400BF09BD /* unhappypizza.jpg */,
+				9FB9D81B2969983400BF09BD /* Oysters.jpg */,
+				9FB9D81C2969983400BF09BD /* ShakeDog.jpg */,
+				9FB9D81D2969983400BF09BD /* Shack Burger.jpg */,
+				9FB9D81E2969983400BF09BD /* Sicillian.jpg */,
+				9FB9D81F2969983400BF09BD /* horchata.jpg */,
+				9FB9D8202969983400BF09BD /* pinos2.jpeg */,
+				9FB9D8212969983400BF09BD /* ep burrito.jpg */,
+				9FB9D8222969983400BF09BD /* El Pelon.jpg */,
+				9FB9D8232969983400BF09BD /* my-place-3.jpeg */,
+				9FB9D8242969983400BF09BD /* Lobster Roll.jpg */,
+				9FB9D8252969983400BF09BD /* Cheese Fries.jpeg */,
+				9FB9D8262969983400BF09BD /* tacos.jpg */,
+				9FB9D8272969983400BF09BD /* square.jpeg */,
+				9FB9D8282969983400BF09BD /* Fish Tacos.jpg */,
+				9FB9D8292969983400BF09BD /* burrito.jpg */,
+				9FB9D82A2969983400BF09BD /* surf n turf shake shack.jpeg */,
+				9FB9D82B2969983400BF09BD /* Shake Shack.jpg */,
+				9FB9D82C2969983400BF09BD /* my-place-2.jpeg */,
+				9FB9D82D2969983400BF09BD /* footballpizza.jpg */,
+				9FB9D82E2969983400BF09BD /* pizza2.jpg */,
+				9FB9D82F2969983400BF09BD /* Concretes.jpg */,
+				9FB9D8302969983400BF09BD /* Chicken Pita.jpg */,
+				9FB9D8312969983400BF09BD /* sea bass.jpg */,
+				9FB9D8322969983400BF09BD /* daves-hot-3.jpeg */,
+				9FB9D8332969983400BF09BD /* Shack Tray.jpg */,
+				9FB9D8342969983400BF09BD /* pinos.jpeg */,
+				9FB9D8352969983400BF09BD /* Shake.jpg */,
+				9FB9D8362969983400BF09BD /* shaq.jpg */,
+				9FB9D8372969983400BF09BD /* seafood.jpg */,
+				9FB9D8382969983400BF09BD /* daves-hot-2.jpeg */,
+				9FB9D8392969983400BF09BD /* my-place-by-the-sea.jpeg */,
+				9FB9D83A2969983400BF09BD /* qahogs.jpg */,
+				9FB9D83B2969983400BF09BD /* ShakeShack.jpg */,
+				9FB9D83C2969983400BF09BD /* Oyster-plate.jpeg */,
+				9FB9D83D2969983400BF09BD /* pizza.jpg */,
+				9FB9D83E2969983400BF09BD /* Sicillian with the noid.jpg */,
+				9FB9D83F2969983400BF09BD /* Oyster Slider.jpg */,
+			);
+			name = "Food Images";
+			path = "../../../Downloads/Food Images";
 			sourceTree = "<group>";
 		};
 		9FE5D83D2919780200D7B9BD = {
@@ -131,6 +265,7 @@
 				9F27968D2935541C00E78E36 /* Models */,
 				9F27968E2935543300E78E36 /* ViewModels */,
 				9F27968F2935545D00E78E36 /* Views */,
+				9FB9D8162969983400BF09BD /* Food Images */,
 				9FE5D84D2919780400D7B9BD /* Assets.xcassets */,
 				9FE5D861291991C900D7B9BD /* GoogleService-Info.plist */,
 				9FE5D84F2919780400D7B9BD /* Preview Content */,
@@ -213,9 +348,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB9D8532969983400BF09BD /* surf n turf shake shack.jpeg in Resources */,
+				9FB9D8682969983400BF09BD /* Oyster Slider.jpg in Resources */,
+				9FB9D8462969983400BF09BD /* Shack Burger.jpg in Resources */,
+				9FB9D8662969983400BF09BD /* pizza.jpg in Resources */,
+				9FB9D85E2969983400BF09BD /* Shake.jpg in Resources */,
+				9FB9D8522969983400BF09BD /* burrito.jpg in Resources */,
+				9FB9D85B2969983400BF09BD /* daves-hot-3.jpeg in Resources */,
+				9FB9D8422969983400BF09BD /* Island Creek.jpg in Resources */,
+				9FB9D8452969983400BF09BD /* ShakeDog.jpg in Resources */,
+				9FB9D84F2969983400BF09BD /* tacos.jpg in Resources */,
+				9FB9D85C2969983400BF09BD /* Shack Tray.jpg in Resources */,
+				9FB9D8472969983400BF09BD /* Sicillian.jpg in Resources */,
+				9FB9D84B2969983400BF09BD /* El Pelon.jpg in Resources */,
+				9FB9D85F2969983400BF09BD /* shaq.jpg in Resources */,
+				9FB9D8672969983400BF09BD /* Sicillian with the noid.jpg in Resources */,
 				9FE5D8512919780400D7B9BD /* Preview Assets.xcassets in Resources */,
+				9FB9D8412969983400BF09BD /* scicillian-pie.jpeg in Resources */,
+				9FB9D8582969983400BF09BD /* Concretes.jpg in Resources */,
+				9FB9D8492969983400BF09BD /* pinos2.jpeg in Resources */,
+				9FB9D84D2969983400BF09BD /* Lobster Roll.jpg in Resources */,
+				9FB9D8542969983400BF09BD /* Shake Shack.jpg in Resources */,
+				9FB9D8562969983400BF09BD /* footballpizza.jpg in Resources */,
+				9FB9D8602969983400BF09BD /* seafood.jpg in Resources */,
+				9FB9D85A2969983400BF09BD /* sea bass.jpg in Resources */,
+				9FB9D84E2969983400BF09BD /* Cheese Fries.jpeg in Resources */,
+				9FB9D8512969983400BF09BD /* Fish Tacos.jpg in Resources */,
+				9FB9D8442969983400BF09BD /* Oysters.jpg in Resources */,
+				9FB9D8652969983400BF09BD /* Oyster-plate.jpeg in Resources */,
+				9FB9D8502969983400BF09BD /* square.jpeg in Resources */,
 				9FE5D84E2919780400D7B9BD /* Assets.xcassets in Resources */,
+				9FB9D8552969983400BF09BD /* my-place-2.jpeg in Resources */,
+				9FB9D8642969983400BF09BD /* ShakeShack.jpg in Resources */,
 				9FE5D862291991C900D7B9BD /* GoogleService-Info.plist in Resources */,
+				9FB9D84C2969983400BF09BD /* my-place-3.jpeg in Resources */,
+				9FB9D8632969983400BF09BD /* qahogs.jpg in Resources */,
+				9FB9D8612969983400BF09BD /* daves-hot-2.jpeg in Resources */,
+				9FB9D8482969983400BF09BD /* horchata.jpg in Resources */,
+				9FB9D85D2969983400BF09BD /* pinos.jpeg in Resources */,
+				9FB9D8432969983400BF09BD /* unhappypizza.jpg in Resources */,
+				9FB9D8592969983400BF09BD /* Chicken Pita.jpg in Resources */,
+				9FB9D8622969983400BF09BD /* my-place-by-the-sea.jpeg in Resources */,
+				9FB9D8572969983400BF09BD /* pizza2.jpg in Resources */,
+				9FB9D8402969983400BF09BD /* daves-hot.png in Resources */,
+				9FB9D84A2969983400BF09BD /* ep burrito.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +405,7 @@
 				9FB9D813296988E600BF09BD /* Photo.swift in Sources */,
 				9FC9859B292BC0F000F58E83 /* PlaceViewModel.swift in Sources */,
 				9F52F43D2921175C00A1C89E /* SpotDetailView.swift in Sources */,
+				9FB9D8152969958900BF09BD /* PhotoView.swift in Sources */,
 				9F27969B29367D4100E78E36 /* ReviewViewModel.swift in Sources */,
 				9FC9859D292BC0F000F58E83 /* PlaceLookupView.swift in Sources */,
 				9F2796992936685900E78E36 /* StarsSelectionView.swift in Sources */,
