@@ -27,6 +27,7 @@ struct SpotDetailView: View {
     @EnvironmentObject var locationManager: LocationManager
     // The variable below does not have right path. We'll change this .onAppear
     @FirestoreQuery(collectionPath: "spots") var reviews: [Review]
+    @FirestoreQuery(collectionPath: "spots") var photos: [Photo]
     @State var spot: Spot
     @State private var showPlaceLookupSheet = false
     @State private var showReviewViewSheet = false
@@ -75,6 +76,8 @@ struct SpotDetailView: View {
                 annotations =  [Annotation(name: spot.name, address: spot.address, coordinate: spot.coordinate)]
                 mapRegion.center = spot.coordinate
             }
+            
+            SpotDetailPhotosScrollView(photos: photos, spot: spot)
             
             HStack {
                 Group {
@@ -162,6 +165,9 @@ struct SpotDetailView: View {
                 $reviews.path = "spots/\(spot.id ?? "")/reviews"
                 print("reviews.path = \($reviews.path)")
                 
+                $photos.path = "spots/\(spot.id ?? "")/photos"
+                print("photos.path = \($photos.path)")
+                
             } else {
                 showingAsSheet = true
             }
@@ -240,8 +246,8 @@ struct SpotDetailView: View {
                     if success {
                         // If we didn't update the path after saving spot, we wouldn't be able to show new reviews added
                         $reviews.path = "spots/\(spot.id ?? "")/reviews"
-                            //TODO: Add photos
-                        //$photos.path = "spots/\(spot.id ?? "")/photos"
+                         
+                        $photos.path = "spots/\(spot.id ?? "")/photos"
                         switch buttonPressed {
                         case .review:
                             showReviewViewSheet.toggle()
